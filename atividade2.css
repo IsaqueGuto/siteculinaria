@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('feijoada.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #ff7b00, #ffb347);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+/* HOVER ANIMADO */
+nav a:hover {
+    background-color: #ff7b00;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Conteúdo */
+section {
+    flex: 3;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Hover nos artigos */
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Links */
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff7b00;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+article a:hover {
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Barra lateral */
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+aside a {
+    color: #ff7b00;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+section h2 {
+    color: white;
+}
